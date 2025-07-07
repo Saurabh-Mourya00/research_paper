@@ -1,15 +1,13 @@
 import React from "react";
 import "./About.css";
+import heatImg from '../../assets/heat.jpg';
+
 
 function About() {
     return (
         <div className="about-container">
             <div className="about-img-wrapper">
-                <img
-                    src="/public/heat.jpg"
-                    alt="About"
-                    className="about-img"
-                />
+                <img src={heatImg} alt="About" className="about-img" />
             </div>
             <div className="about-content">
                 <h2>About Us</h2>
